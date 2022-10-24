@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /*font-family: 'Montserrat', sans-serif;
+  font-family: 'Sacramento', cursive;
+  font-family: georgia, serif;*/
+  color: #40514;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border: dotted #11999E 6px;
+  border-bottom: none;
+  width: 4%;
+
+}
+
+h1 {
+  font-size: 562.5%;/* OR 5.625rem putting pixel might not be appro. cos of user
+  might have different font size settings therefore using percent
+   is best.and 100% is equivalent to 90px. therefore 562.5% is equiv to 90px;
+   OR use em instead of % - same things (5.625rem)*/
+  color: #06283D;
+  margin: 0 auto 0 auto;
+  /*width: 30%;*/
+  font-family: 'Sacramento', cursive;
+  font-weight: normal;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #256D85;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  line-height: 2;
+}
+
+p{
+  line-height: 2;
+  /*clear: left; if you don' want anything on the left side, say, image, and
+  also your title will stay in it's position*/
+}
+.contact-msg{
+  width: 40%;
+  margin:40px auto 60px;
+}
+
+.cloud1{
+  /*margin: 0 auto; /*this is same as 0 auto 0 auto - for centralzing horizontally*/
+    margin-left: 30%;
+}
+
+.cloud2{
+  position: absolute;
+  bottom: 350px;
+}
+.copywrite{
+  color: #EAF6F6;
+  font-size: 75%;
+  padding: 20px 0;
+}
+
+.f-parag {
+/*  font-size: 2.5rem; /*equiv to 40px;*/
+  margin: 0 auto 0 auto;
+}
+.img{
+  height: 250px;
+}
+
+.img2{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.img3{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.top-container {
+  background-color: #31E1F7;
+}
+.middle-container {
+padding: 100px 0;
+}
+.pro{
+  text-decoration: underline;
+}
+.bottom-container{
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+.intro{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
